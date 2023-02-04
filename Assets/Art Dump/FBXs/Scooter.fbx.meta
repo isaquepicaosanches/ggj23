@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: e827ee1dca459e740a42ecd720b9d1db
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Break
+    100002: Front Bolt
+    100004: Front Wheel
+    100006: Handle Bars 1
+    100008: Handle Bars 2
+    100010: Left Handle Bar
+    100012: Pivot Bolt
+    100014: Rear Bolt
+    100016: Rear Wheel
+    100018: Right Handle Bar
+    100020: //RootNode
+    100022: Scooter Frame
+    400000: Break
+    400002: Front Bolt
+    400004: Front Wheel
+    400006: Handle Bars 1
+    400008: Handle Bars 2
+    400010: Left Handle Bar
+    400012: Pivot Bolt
+    400014: Rear Bolt
+    400016: Rear Wheel
+    400018: Right Handle Bar
+    400020: //RootNode
+    400022: Scooter Frame
+    2100000: Scooter 1
+    2100002: Scooter 2
+    2100004: Wheel 1
+    2100006: Wheel 2
+    2100008: Scooter Bolt 1
+    2100010: Scooter Bolt 2
+    2100012: Scooter 3
+    2100014: Handle Bars 1
+    2100016: Handle Bars 2
+    2300000: Break
+    2300002: Front Bolt
+    2300004: Front Wheel
+    2300006: Handle Bars 1
+    2300008: Handle Bars 2
+    2300010: Left Handle Bar
+    2300012: Pivot Bolt
+    2300014: Rear Bolt
+    2300016: Rear Wheel
+    2300018: Right Handle Bar
+    2300020: //RootNode
+    2300022: Scooter Frame
+    3300000: Break
+    3300002: Front Bolt
+    3300004: Front Wheel
+    3300006: Handle Bars 1
+    3300008: Handle Bars 2
+    3300010: Left Handle Bar
+    3300012: Pivot Bolt
+    3300014: Rear Bolt
+    3300016: Rear Wheel
+    3300018: Right Handle Bar
+    3300020: //RootNode
+    3300022: Scooter Frame
+    4300000: Scooter
+    4300002: Scooter Frame
+    4300004: Rear Wheel
+    4300006: Rear Bolt
+    4300008: Break
+    4300010: Handle Bars 2
+    4300012: Handle Bars 1
+    4300014: Left Handle Bar
+    4300016: Right Handle Bar
+    4300018: Front Wheel
+    4300020: Front Bolt
+    4300022: Pivot Bolt
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle Bars 1
+    second: {fileID: 2100000, guid: adefcefac3fd19849a3ac1baab3e8312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle Bars 2
+    second: {fileID: 2100000, guid: 8c3adc62910c2984baa77429d8723ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scooter 1
+    second: {fileID: 2100000, guid: 678e6d681f463ae4d9247a89876f3791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scooter 2
+    second: {fileID: 2100000, guid: fb73c471ec524be4abcfbb327034e903, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scooter 3
+    second: {fileID: 2100000, guid: 632733bf50eefb44aae932545ec78f09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scooter Bolt 1
+    second: {fileID: 2100000, guid: c0724784e79f7114485bef9ad8d78ebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scooter Bolt 2
+    second: {fileID: 2100000, guid: 875931d765ed4a248ac0b674b9d5f832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel 1
+    second: {fileID: 2100000, guid: cfc497d7cc6cacc408711207fb3a4326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel 2
+    second: {fileID: 2100000, guid: 57f1fc677b3a3f44e88a25b9a9bbab6b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

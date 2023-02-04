@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: b8f9677e83f6e4e49bb047453047e303
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Front Bolt 1
+    100002: Front Bolt 2
+    100004: Front Bolt 3
+    100006: Front Bolt 4
+    100008: Front Left Wheel
+    100010: Front Right Wheel
+    100012: Front Truck
+    100014: Rear Bolt 1
+    100016: Rear Bolt 2
+    100018: Rear Bolt 3
+    100020: Rear Bolt 4
+    100022: Rear Left Wheel
+    100024: Rear Right Wheel
+    100026: Rear Truck
+    100028: //RootNode
+    400000: Front Bolt 1
+    400002: Front Bolt 2
+    400004: Front Bolt 3
+    400006: Front Bolt 4
+    400008: Front Left Wheel
+    400010: Front Right Wheel
+    400012: Front Truck
+    400014: Rear Bolt 1
+    400016: Rear Bolt 2
+    400018: Rear Bolt 3
+    400020: Rear Bolt 4
+    400022: Rear Left Wheel
+    400024: Rear Right Wheel
+    400026: Rear Truck
+    400028: //RootNode
+    2100000: Skateboard 3
+    2100002: Skateboard 2
+    2100004: Skateboard 1
+    2100006: Skateboard 7
+    2100008: Skateboard 8
+    2100010: Skateboard 4
+    2100012: Skateboard 5
+    2100014: Skateboard 6
+    2100016: Skateboard 11
+    2100018: Skateboard 9
+    2100020: Skateboard 10
+    2300000: Front Bolt 1
+    2300002: Front Bolt 2
+    2300004: Front Bolt 3
+    2300006: Front Bolt 4
+    2300008: Front Left Wheel
+    2300010: Front Right Wheel
+    2300012: Front Truck
+    2300014: Rear Bolt 1
+    2300016: Rear Bolt 2
+    2300018: Rear Bolt 3
+    2300020: Rear Bolt 4
+    2300022: Rear Left Wheel
+    2300024: Rear Right Wheel
+    2300026: Rear Truck
+    2300028: //RootNode
+    3300000: Front Bolt 1
+    3300002: Front Bolt 2
+    3300004: Front Bolt 3
+    3300006: Front Bolt 4
+    3300008: Front Left Wheel
+    3300010: Front Right Wheel
+    3300012: Front Truck
+    3300014: Rear Bolt 1
+    3300016: Rear Bolt 2
+    3300018: Rear Bolt 3
+    3300020: Rear Bolt 4
+    3300022: Rear Left Wheel
+    3300024: Rear Right Wheel
+    3300026: Rear Truck
+    3300028: //RootNode
+    4300000: Skateboard
+    4300002: Rear Truck
+    4300004: Rear Bolt 4
+    4300006: Rear Bolt 3
+    4300008: Rear Bolt 2
+    4300010: Rear Bolt 1
+    4300012: Rear Left Wheel
+    4300014: Rear Right Wheel
+    4300016: Front Truck
+    4300018: Front Bolt 4
+    4300020: Front Bolt 3
+    4300022: Front Bolt 2
+    4300024: Front Bolt 1
+    4300026: Front Right Wheel
+    4300028: Front Left Wheel
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 1
+    second: {fileID: 2100000, guid: 4f105797be565ed4a8a745794f707ab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 10
+    second: {fileID: 2100000, guid: 5811f86769b42214d9767d1facab7721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 11
+    second: {fileID: 2100000, guid: c92a3329daf820c4ba63ca5a4baa0fee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 2
+    second: {fileID: 2100000, guid: 552e569956342634cb445122e12b1690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 3
+    second: {fileID: 2100000, guid: 84e5a2b05be707e4594400c5bc75385b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 4
+    second: {fileID: 2100000, guid: 43e74e91dd0b6174290dc919302cacdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 5
+    second: {fileID: 2100000, guid: 9172a8e74d6d0dd4d984883d7b2773af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 6
+    second: {fileID: 2100000, guid: eb917994a100ab140ab80579e3f520a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 7
+    second: {fileID: 2100000, guid: 1579a1806e721d746926818f92108343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 8
+    second: {fileID: 2100000, guid: 2dbc67cb0e170e7448178dc6f8ede72e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skateboard 9
+    second: {fileID: 2100000, guid: e96587ad4e245084aba7c27e347af8c2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
