@@ -17,13 +17,14 @@ public class PlayerCharacter : MonoBehaviour
 
     //private vars
     private Transform _targetTransform;
-
+    bool isMoving;
 
     void Start()
     {
         _targetTransform = new GameObject().transform;
         _targetTransform.position = transform.position;
         _targetTransform.rotation = transform.rotation;
+        StartCoroutine(PlayFootsteps());
     }
 
     void Update()
@@ -67,6 +68,7 @@ public class PlayerCharacter : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
             t -= 1;
         _targetTransform.position += _targetTransform.forward * t * Time.deltaTime * _walkSpeed;
+        isMoving = (t != 0);
 
         //bounds
         if (_targetTransform.position.magnitude < _minRadius)
@@ -77,6 +79,16 @@ public class PlayerCharacter : MonoBehaviour
 
         //animate body
         _animator.SetInteger("channel", (int)(Mathf.Abs(t)));
+    }
+
+    IEnumerator PlayFootsteps()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(0.25f);
+            if (isMoving)
+                AudioManager.ShootStep();
+        }
     }
 
 }

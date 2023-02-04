@@ -32,6 +32,7 @@ public class PigeonGroup : MonoBehaviour
         List<Quaternion> rotationsStart = pigeons.Select(x => x.rotation).ToList();
 
         float t = 0;
+        bool barked = false;
         while(t < 1f) //fly backwards
         {
             for(int i = 0; i < pigeons.Count; i++)
@@ -41,8 +42,16 @@ public class PigeonGroup : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
             t += Time.deltaTime * 1.8f;
-            //Debug.Log(t);
+            
+            if (!barked && t > 0.5f)
+            {
+                barked = true;
+                AudioManager.ShootBark();
+            }
+
         }
+        
+
 
         for (int i = 0; i < pigeons.Count; i++) //position them properly
         {
