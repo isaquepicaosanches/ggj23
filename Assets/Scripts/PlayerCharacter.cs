@@ -6,6 +6,9 @@ public class PlayerCharacter : MonoBehaviour
 {
     //editor 
     public Animator _animator;
+    public SkinnedMeshRenderer _mesh;
+    public static SkinnedMeshRenderer _staticMesh;
+    public static Camera _alternativeCamera;
 
     //global vars
     public float _rotationSpeed;
@@ -16,11 +19,12 @@ public class PlayerCharacter : MonoBehaviour
     private float _maxRadius = 123;
 
     //private vars
-    private Transform _targetTransform;
+    private static Transform _targetTransform;
     bool isMoving;
 
     void Start()
     {
+        _staticMesh = _mesh;
         _targetTransform = new GameObject().transform;
         _targetTransform.position = transform.position;
         _targetTransform.rotation = transform.rotation;
@@ -29,12 +33,15 @@ public class PlayerCharacter : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            ChangeCamera(null);
+        }
+
         InputManager();
-        DebugRotate();
 
         Adapt();
     }
-     
 
     void Adapt()
     {
@@ -42,10 +49,9 @@ public class PlayerCharacter : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, _targetTransform.rotation, Time.deltaTime * 10f);
     }
 
-    void DebugRotate()
+    static void Flip()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
-            _targetTransform.rotation *= Quaternion.Euler(0, 180, 0);
+        _targetTransform.rotation *= Quaternion.Euler(0, 180, 0);
     }
 
     void InputManager()
@@ -56,6 +62,9 @@ public class PlayerCharacter : MonoBehaviour
             t -= 1;
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             t += 1;
+        if (Camera.main.depth < 0) //if cutscene, stop
+            t = 0;
+
         _targetTransform.rotation *= Quaternion.Euler(0, 360 * t * Time.deltaTime * _rotationSpeed, 0);
 
         //animate head
@@ -67,6 +76,9 @@ public class PlayerCharacter : MonoBehaviour
             t += 1;
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
             t -= 1;
+        if (Camera.main.depth < 0) //if cutscene, stop
+            t = 0;
+
         _targetTransform.position += _targetTransform.forward * t * Time.deltaTime * _walkSpeed;
         isMoving = (t != 0);
 
@@ -91,4 +103,19 @@ public class PlayerCharacter : MonoBehaviour
         }
     }
 
+    public static void ChangeCamera(Camera target)
+    {
+        if (target != null)
+        {
+            _alternativeCamera = target;
+            _staticMesh.enabled = false;
+            Camera.main.depth = -5;
+        }
+        else
+        {
+            _staticMesh.enabled = true;
+            Camera.main.depth = 5;
+            Flip();
+        }
+    }
 }
