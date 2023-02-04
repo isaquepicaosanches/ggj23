@@ -10,8 +10,10 @@ public class PlayerCharacter : MonoBehaviour
     //global vars
     public float _rotationSpeed;
     public float _walkSpeed;
-    public float _minRadius;
-    public float _maxRadius;
+
+    //constants
+    private float _minRadius = 28;
+    private float _maxRadius = 123;
 
     //private vars
     private Transform _targetTransform;
@@ -31,7 +33,6 @@ public class PlayerCharacter : MonoBehaviour
 
         Adapt();
     }
-
      
 
     void Adapt()
@@ -77,4 +78,5 @@ public class PlayerCharacter : MonoBehaviour
         //animate body
         _animator.SetInteger("channel", (int)(Mathf.Abs(t)));
     }
+
 }
