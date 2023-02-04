@@ -21,7 +21,7 @@ public class Bench : MonoBehaviour
             PlayerCharacter.ChangeCamera(_camera);
 
         thisIsTheCamera = (PlayerCharacter._alternativeCamera == _camera);//in case this just changed
-        fakePc.SetActive(Camera.main.depth < 0);
+        fakePc.SetActive(Camera.main.depth < 0); //if this is a cutscene, activate fake npc
         _camera.depth = thisIsTheCamera ? 1 : -1; //become the chosen camera
     }
 }

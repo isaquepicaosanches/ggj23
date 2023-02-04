@@ -73,7 +73,7 @@ public class Cat : MonoBehaviour
             if (move)
             {
                 int rand = Random.Range(0, 5);
-                if (rand == 0)
+                if (rand == 0 && Camera.main.depth > 0)
                 {
                     allPigeons.Add(Instantiate(_pigeonGroupPrefab, transform.position, Quaternion.identity).gameObject);
                 }
