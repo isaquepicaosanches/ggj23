@@ -6,11 +6,21 @@ public class AudioManager : MonoBehaviour
 {
     private static AudioManager instance;
     int currentIndex = 0;
+
+    //editor
     public List<AudioSource> footstepsSFX;
     public List<AudioSource> barkSFX;
+    public AudioSource music1, music2;
+
     void Awake()
     {
         instance = this;
+    }
+
+    void Update()
+    {
+        music1.mute = StoryManager.state != StoryManager.State.Game;
+        music2.mute = !music1.mute;
     }
 
     public static void ShootStep()
@@ -45,7 +55,6 @@ public class AudioManager : MonoBehaviour
         }));
 
     }
-
     IEnumerator Wait(float time, System.Action callback)
     {
         yield return new WaitForSeconds(time);
