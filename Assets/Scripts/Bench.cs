@@ -17,8 +17,11 @@ public class Bench : MonoBehaviour
     {
         bool thisIsTheCamera = (PlayerCharacter._alternativeCamera == _camera);
 
-        if (Vector3.Distance(pc.transform.position, transform.position) < 10f && !thisIsTheCamera) // trigger cutscene
+        if (Vector3.Distance(pc.transform.position, transform.position) < 10f && !thisIsTheCamera)
+        { // trigger cutscene
             PlayerCharacter.ChangeCamera(_camera);
+            StoryManager.BenchTriggered(this);
+        }
 
         thisIsTheCamera = (PlayerCharacter._alternativeCamera == _camera);//in case this just changed
         fakePc.SetActive(Camera.main.depth < 0); //if this is a cutscene, activate fake npc

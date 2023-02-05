@@ -10,17 +10,88 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5861abed448352b429f55c09733a6597, type: 3}
-  m_Name: Level1
+  m_Name: Level9
   m_EditorClassIdentifier: 
-  instruction: error
+  instruction: THEN A GUY WITH A HAT,                                 READING A BOOK
+    WHICH HAS A                     CHICKEN IN ITS COVER                                           
+    THAT'S ALSO WEARING A HAT
   characters:
   - isSolution: 0
     missing: 0
     lines:
-    - line: yup
-      left: 1
-    - line: everything okay?
+    - line: none
       left: 0
+    - line: any idea where Jonas is?
+      left: 1
+    - line: ...boss?
+      left: 0
+    - line: ...
+      left: 0
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: I am character 1
+      left: 0
+    - line: ok
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: no
+      left: 0
+    - line: have you seen Jonas?
+      left: 1
+    - line: ...
+      left: 0
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: why would I know that?
+      left: 0
+    - line: ...where's jonas?
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...?
+      left: 0
+    - line: ...?
+      left: 1
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: no, but...
+      left: 0
+    - line: are you jonas?
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
     - line: ...
       left: 0
     - line: ...
@@ -28,80 +99,17 @@ MonoBehaviour:
   - isSolution: 1
     missing: 0
     lines:
-    - line: goodbye
+    - line: "He\u2019s in disguise"
       left: 0
-    - line: goodbye
+    - line: No clue
+      left: 0
+    - line: Where is Jonas?
       left: 1
-    - line: I have to go
-      left: 1
-    - line: it was a pleasure doing business with you
+    - line: "I\u2019m here just to be muscle, remember?"
       left: 0
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
+    - line: "You\u2019re the one who promoted Jonas"
       left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: all good
-      left: 1
-    - line: all good?
-      left: 0
-    - line: ...
-      left: 1
-    - line: ...
-      left: 0
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
+    - line: I should fire all of you
       left: 1
   - isSolution: 0
     missing: 0

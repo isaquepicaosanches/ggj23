@@ -6,14 +6,14 @@ public class LevelScriptableObject : ScriptableObject
 {
 
     public string instruction;
-    public Character solution;
-    public List<Character> decoy;
+    public List<Character> characters;
 
     [System.Serializable]
     public class Character
     {
-        public Bench bench;
-        public string instruction;
+        public bool isSolution;
+        public bool missing;
+        public List<DialogLine> lines;
     }
 
     [System.Serializable]

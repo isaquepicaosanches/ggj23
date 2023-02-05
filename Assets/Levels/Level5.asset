@@ -10,43 +10,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5861abed448352b429f55c09733a6597, type: 3}
-  m_Name: Level1
+  m_Name: Level5
   m_EditorClassIdentifier: 
-  instruction: error
+  instruction: THEN, A MAN IN A BLACK T-SHIRT,                              SITTING
+    BY THE ENTRANCE
   characters:
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: yup
-      left: 1
-    - line: everything okay?
-      left: 0
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
   - isSolution: 1
     missing: 0
     lines:
-    - line: goodbye
+    - line: All clear
       left: 0
-    - line: goodbye
-      left: 1
-    - line: I have to go
-      left: 1
-    - line: it was a pleasure doing business with you
-      left: 0
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
+    - line: any danger?
       left: 1
   - isSolution: 0
     missing: 0
     lines:
+    - line: I am character 1
+      left: 0
+    - line: ok
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: on it
+      left: 1
+    - line: I need the passcode
+      left: 0
+    - line: ...I
+      left: 0
     - line: ...
+      left: 1
+    - line: ...
+      left: 0
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: i know, i know
+      left: 1
+    - line: ...can't do anything without the algorithm
       left: 0
     - line: ...
       left: 1
@@ -64,6 +65,10 @@ MonoBehaviour:
   - isSolution: 0
     missing: 0
     lines:
+    - line: ...
+      left: 1
+    - line: need anything else?
+      left: 0
     - line: ...
       left: 0
     - line: ...

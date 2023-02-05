@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5861abed448352b429f55c09733a6597, type: 3}
-  m_Name: Level1
+  m_Name: Level2
   m_EditorClassIdentifier: 
-  instruction: error
+  instruction: I TALKED TO SOMEONE IN A COWBOY HAT
   characters:
   - isSolution: 0
     missing: 0
@@ -25,31 +25,29 @@ MonoBehaviour:
       left: 0
     - line: ...
       left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: I am character 1
+      left: 0
+    - line: ok
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
   - isSolution: 1
     missing: 0
     lines:
-    - line: goodbye
-      left: 0
-    - line: goodbye
+    - line: ok
       left: 1
-    - line: I have to go
-      left: 1
-    - line: it was a pleasure doing business with you
+    - line: bring it back to the client
       left: 0
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
+    - line: here's the package
       left: 0
-    - line: ...
-      left: 1
-  - isSolution: 0
-    missing: 0
-    lines:
-    - line: ...
-      left: 0
-    - line: ...
-      left: 1
   - isSolution: 0
     missing: 0
     lines:
