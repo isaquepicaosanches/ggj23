@@ -11,7 +11,7 @@ public class StoryManager : MonoBehaviour
     public List<LevelScriptableObject> levels;
     public List<Bench> allBenches;
     //editor
-    public GameObject blackBars;
+    public GameObject blackBarA, blackBarB;
     public TextMeshProUGUI clue;
     public TextMeshProUGUI leftDialog;
     public TextMeshProUGUI rightDialog;
@@ -27,11 +27,6 @@ public class StoryManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-    }
-
-    void Start()
-    {
-        
     }
 
     public static void BenchTriggered(Bench bench)
@@ -89,7 +84,8 @@ public class StoryManager : MonoBehaviour
     void Update()
     {
         bool cutsceneMode = (Camera.main.depth < 0);
-        blackBars.SetActive(cutsceneMode);
+        blackBarA.SetActive(cutsceneMode);
+        blackBarB.SetActive(cutsceneMode);
         clue.gameObject.SetActive(!cutsceneMode);
 
         if (waitForReturn && state == State.Game && Input.GetKeyDown(KeyCode.Return))
