@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5861abed448352b429f55c09733a6597, type: 3}
+  m_Name: Level6
+  m_EditorClassIdentifier: 
+  instruction: THEN, A MAN WITH WHITE SHOES
+  characters:
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...you okay, boss?
+      left: 1
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: I am character 1
+      left: 0
+    - line: ok
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: on it
+      left: 1
+    - line: I need the passcode
+      left: 0
+    - line: ...I
+      left: 0
+    - line: ...
+      left: 1
+    - line: ...
+      left: 0
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: i know, i know
+      left: 1
+    - line: ...can't do anything without the algorithm
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: not yet
+      left: 1
+    - line: ...did you talk to him?
+      left: 0
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 1
+    missing: 0
+    lines:
+    - line: the envelope is under the bench
+      left: 0
+    - line: fine...
+      left: 1
+    - line: he says it's MONEY FIRST, OR NO DEAL
+      left: 1
+    - line: jonas sent me
+      left: 1
+    - line: the bubblebee flies backwards
+      left: 0
+    - line: the tempest follows the light
+      left: 1
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+    - line: indeed
+      left: 0
+    - line: what a lovely day
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 1
+    - line: ...so?
+      left: 0
+    - line: ...
+      left: 0
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1
+  - isSolution: 0
+    missing: 0
+    lines:
+    - line: ...
+      left: 0
+    - line: ...
+      left: 1

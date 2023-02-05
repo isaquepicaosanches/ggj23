@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: 40e8d2d2f75f4bc4fbe74c4afb1c1a56
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bike Chain
+    100002: //RootNode
+    100004: BMX Frame
+    100006: BMX Seat
+    100008: Centre Cog
+    100010: Front Left Peg
+    100012: Front Right Peg
+    100014: Front Wheel
+    100016: Handle Bars
+    100018: Left Pedal
+    100020: Pedal Bars
+    100022: Rear Cog
+    100024: Rear Left Peg
+    100026: Rear Right Peg
+    100028: Rear Wheel
+    100030: Right Pedal
+    400000: Bike Chain
+    400002: //RootNode
+    400004: BMX Frame
+    400006: BMX Seat
+    400008: Centre Cog
+    400010: Front Left Peg
+    400012: Front Right Peg
+    400014: Front Wheel
+    400016: Handle Bars
+    400018: Left Pedal
+    400020: Pedal Bars
+    400022: Rear Cog
+    400024: Rear Left Peg
+    400026: Rear Right Peg
+    400028: Rear Wheel
+    400030: Right Pedal
+    2100000: BMX 1
+    2100002: BMX 4
+    2100004: BMX 2
+    2100006: BMX 3
+    2100008: BMX Wheel 1
+    2100010: BMX Wheel 2
+    2100012: BMX Wheel 3
+    2100014: BMX Pedal
+    2100016: Bmx Cog
+    2100018: BMX Chain
+    2300000: Bike Chain
+    2300002: //RootNode
+    2300004: BMX Frame
+    2300006: BMX Seat
+    2300008: Centre Cog
+    2300010: Front Left Peg
+    2300012: Front Right Peg
+    2300014: Front Wheel
+    2300016: Handle Bars
+    2300018: Left Pedal
+    2300020: Pedal Bars
+    2300022: Rear Cog
+    2300024: Rear Left Peg
+    2300026: Rear Right Peg
+    2300028: Rear Wheel
+    2300030: Right Pedal
+    3300000: Bike Chain
+    3300002: //RootNode
+    3300004: BMX Frame
+    3300006: BMX Seat
+    3300008: Centre Cog
+    3300010: Front Left Peg
+    3300012: Front Right Peg
+    3300014: Front Wheel
+    3300016: Handle Bars
+    3300018: Left Pedal
+    3300020: Pedal Bars
+    3300022: Rear Cog
+    3300024: Rear Left Peg
+    3300026: Rear Right Peg
+    3300028: Rear Wheel
+    3300030: Right Pedal
+    4300000: BMX Pivot
+    4300002: Handle Bars
+    4300004: Front Wheel
+    4300006: Front Left Peg
+    4300008: Front Right Peg
+    4300010: BMX Frame
+    4300012: Rear Wheel
+    4300014: BMX Seat
+    4300016: Pedal Bars
+    4300018: Left Pedal
+    4300020: Right Pedal
+    4300022: Rear Cog
+    4300024: Centre Cog
+    4300026: Bike Chain
+    4300028: Rear Right Peg
+    4300030: Rear Left Peg
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX 1
+    second: {fileID: 2100000, guid: eec16464338ee8b47b2cdd917015e747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX 2
+    second: {fileID: 2100000, guid: 29cecd28e8bb47547a96816534ee4c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX 3
+    second: {fileID: 2100000, guid: b38dee66178fa4d42bd0ee911f3b0e31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX 4
+    second: {fileID: 2100000, guid: f79fb3902a53ea74bb8e941dc1df24f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX Chain
+    second: {fileID: 2100000, guid: 4b4c0e033ea37644781beec7348cec5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX Pedal
+    second: {fileID: 2100000, guid: 5616055feb03ccf4e98af5c94dbaf539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX Wheel 1
+    second: {fileID: 2100000, guid: c5e9ecf23a6f3fd479add66c2fa8f73a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX Wheel 2
+    second: {fileID: 2100000, guid: 18d8da1332c2785449d614ed916ed44f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BMX Wheel 3
+    second: {fileID: 2100000, guid: 4fddcf17d1ca3c944b08d4281eb71c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bmx Cog
+    second: {fileID: 2100000, guid: 4b83387fd26833b44a770b9e312454bb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
