@@ -28,9 +28,9 @@ MonoBehaviour:
   - isSolution: 0
     missing: 0
     lines:
-    - line: I am character 1
-      left: 0
-    - line: ok
+    - line: not yet
+      left: 1
+    - line: do you have the package?
       left: 1
   - isSolution: 1
     missing: 0

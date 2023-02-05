@@ -28,9 +28,11 @@ MonoBehaviour:
   - isSolution: 0
     missing: 0
     lines:
-    - line: I am character 1
+    - line: one sec, I'll be right back
+      left: 1
+    - line: ...?
       left: 0
-    - line: ok
+    - line: ...
       left: 1
   - isSolution: 0
     missing: 0

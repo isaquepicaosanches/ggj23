@@ -25,10 +25,12 @@ MonoBehaviour:
   - isSolution: 0
     missing: 0
     lines:
-    - line: I am character 1
+    - line: ...?
       left: 0
-    - line: ok
+    - line: let me take care of something first
       left: 1
+    - line: you want the passcode?
+      left: 0
   - isSolution: 0
     missing: 0
     lines:
